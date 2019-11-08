@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans",
+  sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #aaa;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.cancel{
+  float:left;
+}
+header {
+  padding: 45px 15px;
+}
+
+
+#show {
+
+  padding: 15px 15px;
+  background-color: #bbb;
+}
+
+button{
+  display: block;
+  float: right;
+}
+
+#shows{
+ float:left;
+  width: 40%;
+}
+#actualShow{
+float: right;
+  width: 60%;
+}
+
+#details,#watching,#title{
+  display: block;
+  padding: 45px 15px;
+  background-color: #aaa
+}
+
+#edit-details,#watchingLog{
+display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+#details,#watching,#title{
+  display: block;
+  padding: 80px 15px;
+  background-color: #aaa
+}
+
+span.log, span.state{
+  display: block;
+  text-align: left;
+  
+}
+
+span.detail{
+  text-align: left;
+
+}
+section:nth-child(even) {
+  background-color: #ddd;
+}
+
+p {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+p + p {
+  margin-top: 15px;
+}
