@@ -4,12 +4,15 @@
   <head>
       <title>HTML wireframe</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    
       <link rel="stylesheet" type="text/css" href="main.css">
   </head>
 
   <body>
-    <nav class="topNav" role="navigation">Nav</nav>
+    <nav class="topNav" role="navigation"> <a href="/">To Watch</a>
+      <a href="watching.html">Watching</a> 
+      <a href="finished.html">Finished</a> 
+    </nav>
     <main role="main">
       <header role="banner">
        
@@ -18,6 +21,7 @@
    
       <section id="shows">
           <input type="text" placeholder="Your Library..">
+          <a href="details.html">Add Show</a>  
         <div id="show">
             <h3>TV Show Name</h3>
         </div>
@@ -54,7 +58,7 @@
           <span class="log">
         Watching Log
           </span>
-        <button class="update" type="button">Update</button> 
+          <a href="watchingLog.html">Update</a>  
         <span class= "state">
         Watch state: To Watch
         </span>
@@ -66,11 +70,11 @@
           <span class="detail">
           Details
           </span>
-          <button type="button">Edit</button> 
+          <a href="details.html">Details</a>   
             <hr>
             </div>
         </section>
-        <nav role="navigation">Nav</nav>
+       
     </main>
     
   </body>

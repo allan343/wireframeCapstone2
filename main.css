@@ -16,7 +16,7 @@ body {
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+ /* background-color: #aaa;*/
 }
 
 nav {
